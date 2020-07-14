@@ -1,4 +1,4 @@
-# Scheduled Denoising Autoencoder
+# Denoising Autoencoder
 This repository contains experiments related to Denoising Autoencoders on CIFAR10 dataset. The CIFAR10 dataset contains 60000 32x32 coloured images in 10 classes.
 
 #### Scheduled Denoising Autoencoder
@@ -8,5 +8,8 @@ In this repository we have trained the Neural Network on normalized CIFAR10 data
 
 Following experiments have been performed:
 * Training the network with highly corrupted images with probability 70% (p=0.7)
-* Gradually reducing the noise (p=0.7->0.5->0.4->0.3->0.2->0.1)
+* Gradually reducing the noise while training (p=0.7->0.5->0.4->0.3->0.2->0.1)
 * Training only the CIFAR10 training dataset (3:1 split for training:validation) and then testing the model on the CIFAR10 test dataset.
+
+#### References
+https://arxiv.org/pdf/1406.3269.pdf
