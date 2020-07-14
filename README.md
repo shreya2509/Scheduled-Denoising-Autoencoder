@@ -1,4 +1,4 @@
-# Denoising-Autoencoder
+# Scheduled Denoising Autoencoder
 This repository contains experiments related to Denoising Autoencoders on CIFAR10 dataset. The CIFAR10 dataset contains 60000 32x32 coloured images in 10 classes.
 
 #### Scheduled Denoising Autoencoder
